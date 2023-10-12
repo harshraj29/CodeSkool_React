@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Blogs = ({ blogs }) => {
     return (
-        <div className='w-full bg-[#181826] py-[50px]'>
+        <div className='w-full bg-transprent py-[50px]'>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black'>
                     {blogs.data.map((blog) => (
@@ -14,7 +14,7 @@ const Blogs = ({ blogs }) => {
                                     src={`http://localhost:1337${blog.attributes.coverImg?.data?.attributes?.url}`}
                                     alt={blog.attributes.blogTitle}
                                 />
-                                <div className='p-8 text-blue-700'>
+                                <div className='p-8 text-white'>
                                     <h3 className='font-bold text-2xl my-1'>
                                         {blog.attributes.blogTitle}
                                     </h3>

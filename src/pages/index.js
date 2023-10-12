@@ -3,6 +3,7 @@ import BlogContentPage from './BlogContentPage';
 import Html from './Html';
 import Css from './Css';
 import JavaScript from './JavaScript';
+import Login from './Login';
 
 export {
   Homepage,
@@ -10,5 +11,5 @@ export {
   Html,
   Css,
   JavaScript,
-
+  Login,
 };
