@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import useFetch from './hooks/useFetch';
-import { Homepage, BlogContentPage , Html ,Css ,JavaScript , React } from './pages';
+import { Homepage, BlogContentPage , Html ,Css } from './pages';
 
 export default function App() {
   const { loading, data, error } = useFetch('http://localhost:1337/api/blogs?populate=*');
