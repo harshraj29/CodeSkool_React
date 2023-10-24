@@ -1,5 +1,5 @@
 .bg-animation {
-    background: linear-gradient(135deg, #ff6f61, #3d8ee7, #ff6f61, #3d8ee7);
+    background: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
     background-size: 400% 400%;
     animation: backgroundAnimation 10s ease infinite;
   }

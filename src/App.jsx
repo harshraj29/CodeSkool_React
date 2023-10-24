@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import useFetch from './hooks/useFetch';
-import { Homepage, BlogContentPage , Html ,Css, Login } from './pages';
+import { Homepage, BlogContentPage , Html ,Css, Login , Contact } from './pages';
 import './styles/background.css';
 
 export default function App() {
@@ -21,14 +21,17 @@ export default function App() {
   
 
   return (
+    
     <Router>
-      <div className='bg-animation'>
+      
+      <div>
         <Routes>
           <Route path="/" element={<Homepage blogs={data ? data : ''} />} />
           <Route path="/html" element={<Html blogs={data ? data : ''} />}/>
           <Route path="/css" element={<Css blogs={data ? data : ''} />}/>
           <Route path="/blog/:id" element={<BlogContentPage blogs={data ? data : ''} />} />
           <Route path="/Login" element={<Login/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </div>
     </Router>

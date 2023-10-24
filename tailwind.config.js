@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'DotGothic16': ['DotGothic16', 'sans-serif'],
+        'Hero' : ['Sedgwick Ave Display', 'cursive']
       }
     },
   },
