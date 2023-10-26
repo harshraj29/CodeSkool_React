@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-
-/* import react-icons */
 import { BiChevronDown } from "react-icons/bi";
 
 /* import framer-motion */

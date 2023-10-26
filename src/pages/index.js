@@ -5,6 +5,7 @@ import Css from './Css';
 import JavaScript from './JavaScript';
 import Login from './Login';
 import Contact from './Contact';
+import Register from './Register';
 
 export {
   Homepage,
@@ -14,4 +15,5 @@ export {
   JavaScript,
   Login,
   Contact,
+  Register,
 };

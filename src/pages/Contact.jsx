@@ -51,7 +51,7 @@ function Contact() {
               <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-300">Your message</label>
               <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-sm rounded-lg shadow-sm border focus:ring-primary-500 focus:border-primary-500 bg-[#CCE6F4] border-gray-600 placeholder-gray-400 text-[#111] focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..." />
             </div>
-            <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white bg-orange-500 rounded-xl hover:bg-orange-700">
+            <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-[#4BA3C3] bg-[#CCE6F4] rounded-xl ">
               Send message
             </button>
           </form>

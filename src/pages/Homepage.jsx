@@ -10,8 +10,6 @@ const Homepage = ({ blogs }) => {
       <About/>
       <Card/>
       <Secondlast/>
-      {/* <Slider/> */}
-      {/* <Blogs blogs={blogs} /> */}
       <Faq/>
       <Footer />
     </div>
